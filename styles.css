@@ -1,0 +1,135 @@
+/* General Reset */
+
+body {
+    background-image: url('Taekwondo.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    opacity: 0.9;
+    padding: 0;
+    background-color: #FFF2E0;
+    color: #dbacac;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #06042b;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar .logo {
+    height: 30px;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-links a {
+    color: hsl(30, 43%, 46%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: hsl(35, 91%, 78%);
+}
+
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.highlight {
+    color: #006064;
+    font-weight: bold;
+}
+
+
+/* Contact Form */
+.form-container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      width: 900px;
+      margin: 25px auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      font-size: 16px;
+      text-align: center
+    }
+textarea {
+      resize: vertical;
+    }
+
+
+.checkbox-group,
+.radio-group {
+    display: inline-block;
+    align-items: center;
+    gap: 6px;
+    font-weight: lighter;
+}
+
+
+.radio-group input[type="radio"] {
+    margin: 0;
+}
+   
+
+
+button {
+      margin-top: 20px;
+      background-color: hsl(245, 83%, 23%);
+      color: white;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+
+button:hover {
+      background-color: #5e7883;
+    }
+
+
+/* Footer */
+footer {
+    background-color: #06042b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
